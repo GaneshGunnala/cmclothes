@@ -11,7 +11,7 @@ const Home = () => {
       <div>
         <Navbar />
         <div class="">
-          <main>
+          <main style={{marginTop: "55px",}}>
             <Whatsapp />
             <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary mainHero">
               <div class="col-md-9 my-5" style={{marginLeft: "50px", textAlign: "initial"}}>
