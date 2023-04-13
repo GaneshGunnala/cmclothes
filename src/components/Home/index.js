@@ -2,6 +2,7 @@ import React, { useEffect, useState, useReducer } from "react";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Accordion from "../helpers/Accordion";
 import Footer from "../helpers/Footer";
+import { Whatsapp } from "../helpers/Whatsapp";
 import Navbar from "../Navbar";
 import "./Home.scss";
 const Home = () => {
@@ -11,10 +12,11 @@ const Home = () => {
         <Navbar />
         <div class="">
           <main>
+            <Whatsapp />
             <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary mainHero">
-              <div class="col-md-9 mx-auto my-5">
+              <div class="col-md-9 my-5" style={{marginLeft: "50px", textAlign: "initial"}}>
                 <h1 class="display-4 fw-normal">Custom Made Clothes Gallery</h1>
-                <p class="lead fw-normal">
+                <p class="lead fw-normal" style={{width: "700px"}}>
                   We are an influential clothing brand who offer a wide range of
                   clothing collections made for you specially. We try to make
                   you look as best as possible on your upcoming occasions. Leave
