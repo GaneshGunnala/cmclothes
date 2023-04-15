@@ -5,6 +5,7 @@ import Footer from "../helpers/Footer";
 import { Whatsapp } from "../helpers/Whatsapp";
 import Navbar from "../Navbar";
 import "./Home.scss";
+import { CategoriesCircle } from "../helpers/CategoriesCircle";
 const Home = () => {
   return (
     <>
@@ -13,22 +14,7 @@ const Home = () => {
         <div class="">
           <main style={{}}>
             <Whatsapp />
-            <div class="categoriesCarousal">
-              <div class="categoryDiv">
-                <img class="categoryImg" src={require('../../images/ravixkarunaSquare.jpg')}></img>
-                <h6 class="categoryLabel">Suits</h6>
-              </div>
-              <div>
-                <img class="categoryImg" src="https://i.pinimg.com/564x/1b/f9/b5/1bf9b5f394d3f4de6eb01b42f7884e5e.jpg"></img>
-                <h6>Formals</h6>
-              </div>
-              <div>
-                <img class="categoryImg"></img>
-              </div>
-              <div>
-                <img class="categoryImg"></img>
-              </div>
-            </div>
+            <CategoriesCircle />
             <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary mainHero">
               <div class="col-md-9 my-5" style={{marginLeft: "50px", textAlign: "initial"}}>
                 <h1 class="display-3 fw-normal">CMClothes Gallery</h1>

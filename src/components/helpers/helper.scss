@@ -16,3 +16,22 @@
 .my-float{
 	margin: 15px;
 }
+
+.categoriesCarousal{
+    height: "20px !important";
+    display: flex;
+}
+
+.categoryImg{
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.categoryDiv{
+    justify-content: center;
+}
+
+.categoryLabel{
+    text-align: center;
+}
