@@ -5,7 +5,7 @@ const Navbar = lazy(() => import("./components/Navbar/index"));
 
 const routes = [
     {
-      path: '/home',
+      path: '/',
       component: <Home />,
       description: "Home",
     },
