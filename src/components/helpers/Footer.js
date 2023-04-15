@@ -45,10 +45,25 @@ const Footer = () => {
                                 </div>
                             </form>
                         </div> */}
-                        <div>
-                            Follow Us
-                            <div>
-                                fb, insta , pinterest, wedmegud, justdial, youtube
+                        <div style={{display: "flex"}}>
+                            <h5>Follow Us</h5>
+                            <div class="icons">
+                            <a href="https://www.freepnglogos.com/pics/logo-facebookpng" title="facebook"><img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-flat-facebook-logo-png-icon-circle-22.png" width="40" alt="facebook" /></a>
+                            </div>
+                            <div class="icons">
+                            <a href="https://www.freepnglogos.com/pics/pinterest-logo-png" title="pinterest"><img src="https://www.freepnglogos.com/uploads/pinterest-logo-emblem-png-11.png" width="40" alt="pinterest logo emblem png" /></a>
+                            </div>
+                            <div class="icons">
+                            <a href="https://www.freepnglogos.com/pics/instagram-icon" title="insta"><img src="https://www.freepnglogos.com/uploads/instagram-icon-png/instagram-icon-suzem-limited-make-known-20.png" width="40" alt="instagram" /></a>
+                            </div>
+                            <div class="icons">
+                            <a href="../../images/icons/wedmegood.png" title=""><img src={require("../../images/icons/wedmegood.png")} width="40" height="40" alt="instagram" /></a>    
+                            </div>
+                            <div class="icons">
+                            <a href="../../images/icons/wedmegood.png" title=""><img src="https://user-images.githubusercontent.com/42868728/70027410-164cdd00-15c8-11ea-9852-6982408e4ea6.png" width="40" alt="instagram" /></a>    
+                            </div>
+                            <div class="icons">
+                            <a href="https://www.freepnglogos.com/pics/youtube-logo-png" title=""><img src="https://www.freepnglogos.com/uploads/youtube-circle-icon-png-logo-14.png" width="50" alt="youtube circle icon png logo" /></a>
                             </div>
                         </div>
                     </div>
