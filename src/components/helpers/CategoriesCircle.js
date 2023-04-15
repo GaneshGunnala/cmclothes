@@ -22,6 +22,18 @@ export const CategoriesCircle = () => {
             Label: "Jodhpuris",
             ImgSrc: require("../../images/jodhpurisSquare.jpg")
         },
+        {
+            Label: "IndoWestern",
+            ImgSrc: require("../../images/indowesternSquare.jpg")
+        },
+        {
+            Label: "Pagdis",
+            ImgSrc: require("../../images/pagdiSquare.jpg")
+        },
+        {
+            Label: "Loafers",
+            ImgSrc: require("../../images/loaferSquare.jpg")
+        },
     ]);
     return (
         <div class="categoriesCarousal" style={{overflow: "auto"}}>
