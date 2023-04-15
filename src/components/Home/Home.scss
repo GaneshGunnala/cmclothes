@@ -1,6 +1,28 @@
 .mainHero{
     padding: 0% !important;
-    background-image: url("../../images/clientHeroImage.jpg");
+    background-image: url("../../images/clientHeroImageCrpnew.jpg");
     background-size: auto;
     height: 500px;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+
+.categoriesCarousal{
+    height: "20px !important";
+    display: flex;
+}
+
+.categoryImg{
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.categoryDiv{
+    justify-content: center;
+}
+
+.categoryLabel{
+    text-align: center;
 }

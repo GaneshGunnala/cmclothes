@@ -1,34 +1,77 @@
-import React, { useEffect, useState, useReducer } from "react";
-import "./Navbar.scss";
+import React, { useState } from 'react';
+import {
+  MDBContainer,
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBBtn,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
+  MDBCollapse,
+} from 'mdb-react-ui-kit';
 
-const Navbar = () => {
-return(
-  <nav class="navbar navbar-expand-md fixed-top" >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fixed navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-);
+export default function App() {
+  const [showBasic, setShowBasic] = useState(false);
+
+  return (
+    <MDBNavbar expand='lg' light bgColor='light'>
+      <MDBContainer fluid>
+        <MDBNavbarBrand href='#'>
+          <img src={require('../../images/CmLogo2.png')} style={{width:"80px", height: "50px"}}></img>
+        </MDBNavbarBrand>
+
+        <MDBNavbarToggler
+          aria-controls='navbarSupportedContent'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+          onClick={() => setShowBasic(!showBasic)}
+        >
+          <MDBIcon icon='bars' fas />
+        </MDBNavbarToggler>
+
+        <MDBCollapse navbar show={showBasic}>
+          <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
+            <MDBNavbarItem>
+              <MDBNavbarLink active aria-current='page' href='#'>
+                Home
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href='#'>Link</MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBDropdown>
+                <MDBDropdownToggle tag='a' className='nav-link' role='button'>
+                  Dropdown
+                </MDBDropdownToggle>
+                <MDBDropdownMenu>
+                  <MDBDropdownItem link>Action</MDBDropdownItem>
+                  <MDBDropdownItem link>Another action</MDBDropdownItem>
+                  <MDBDropdownItem link>Something else here</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBNavbarLink disabled href='#' tabIndex={-1} aria-disabled='true'>
+                Disabled
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+          </MDBNavbarNav>
+
+          <form className='d-flex input-group w-auto'>
+            <input type='search' className='form-control' placeholder='Type query' aria-label='Search' />
+            <MDBBtn color='primary'>Search</MDBBtn>
+          </form>
+        </MDBCollapse>
+      </MDBContainer>
+    </MDBNavbar>
+  );
 }
-
-export default Navbar;

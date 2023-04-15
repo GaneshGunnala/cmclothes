@@ -11,11 +11,27 @@ const Home = () => {
       <div>
         <Navbar />
         <div class="">
-          <main style={{marginTop: "55px",}}>
+          <main style={{}}>
             <Whatsapp />
+            <div class="categoriesCarousal">
+              <div class="categoryDiv">
+                <img class="categoryImg" src={require('../../images/ravixkarunaSquare.jpg')}></img>
+                <h6 class="categoryLabel">Suits</h6>
+              </div>
+              <div>
+                <img class="categoryImg" src="https://i.pinimg.com/564x/1b/f9/b5/1bf9b5f394d3f4de6eb01b42f7884e5e.jpg"></img>
+                <h6>Formals</h6>
+              </div>
+              <div>
+                <img class="categoryImg"></img>
+              </div>
+              <div>
+                <img class="categoryImg"></img>
+              </div>
+            </div>
             <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary mainHero">
               <div class="col-md-9 my-5" style={{marginLeft: "50px", textAlign: "initial"}}>
-                <h1 class="display-4 fw-normal">Custom Made Clothes Gallery</h1>
+                <h1 class="display-3 fw-normal">CMClothes Gallery</h1>
                 <p class="lead fw-normal" style={{width: "700px"}}>
                   We are an influential clothing brand who offer a wide range of
                   clothing collections made for you specially. We try to make
@@ -30,7 +46,19 @@ const Home = () => {
               <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
             </div>
             <div class="" style={{justifyContent: "center"}}>
-              <div class="">
+            <div class="">
+                <div class="my-3 py-3" style={{textAlign: "center"}}>
+                  <h2 class="display-5">Men</h2>
+                  <p class="lead">We offer a huge collection for men.<br/>Our inventory consists of from sarees to lehengas</p>
+                </div>
+                <div
+                  class="bg-body shadow-sm mx-auto"
+                  style={{width: "600px", height: "300px", borderRadius: "21px 21px 0 0"}}
+                >
+                  <img  style={{height: "300px", width:"600px", borderRadius: "10px" }} src={require('../../images/ravixkarunaSquare.jpg')}></img>
+                </div>
+              </div>
+              {/* <div class="">
                 <div class="my-3 p-3" style={{textAlign: "center"}}>
                   <h2 class="display-5">Women</h2>
                   <p class="lead">We offer a moderate collection for women as of now. <br/>Our inventory consists of from sarees to lehengas</p>
@@ -39,17 +67,8 @@ const Home = () => {
                   class="bg-body shadow-sm mx-auto"
                   style={{width: "50%", height: "300px", borderRadius: "21px 21px 0 0"}}
                 ></div>
-              </div>
-              <div class="">
-                <div class="my-3 py-3" style={{textAlign: "center"}}>
-                  <h2 class="display-5">Men</h2>
-                  <p class="lead">We offer a huge collection for men.<br/>Our inventory consists of from sarees to lehengas</p>
-                </div>
-                <div
-                  class="bg-body shadow-sm mx-auto"
-                  style={{width: "50%", height: "300px", borderRadius: "21px 21px 0 0"}}
-                ></div>
-              </div>
+              </div> */}
+              
             </div>
           </main>
         </div>
