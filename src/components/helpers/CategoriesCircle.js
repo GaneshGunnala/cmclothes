@@ -6,10 +6,25 @@ export const CategoriesCircle = () => {
             Label: "Suits",
             ImgSrc: require("../../images/ravixkarunaSquare.jpg")
         },
+        {
+            Label: "Sherwanis",
+            ImgSrc: require("../../images/sherwaniSquare.jpg")
+        },
+        {
+            Label: "Sadris",
+            ImgSrc: require("../../images/sadriSquare.jpg")
+        },
+        {
+            Label: "Formals",
+            ImgSrc: require("../../images/formalsSquare.png")
+        },
+        {
+            Label: "Jodhpuris",
+            ImgSrc: require("../../images/jodhpurisSquare.jpg")
+        },
     ]);
-    debugger;
     return (
-        <div class="categoriesCarousal">
+        <div class="categoriesCarousal" style={{overflow: "auto"}}>
             {circleData.map(item => {
                 return(
                 <div class="categoryDiv">
