@@ -51,12 +51,37 @@ const Home = () => {
                   <h2 class="display-5">Men</h2>
                   <p class="lead">We offer a huge collection for men.<br/>Our inventory consists of from sarees to lehengas</p>
                 </div>
+
                 <div
-                  class="bg-body shadow-sm mx-auto"
-                  style={{width: "600px", height: "300px", borderRadius: "21px 21px 0 0"}}
+                  class="bg-body mx-auto tilesDiv"
+                  style={{borderRadius: "21px 21px 0 0", justifyContent: "center"}}
                 >
-                  <img  style={{height: "300px", width:"600px", borderRadius: "10px" }} src={require('../../images/ravixkarunaSquare.jpg')}></img>
+                  <img class="tilesImg" src={require('../../images/ravixkarunaSquare.jpg')} />
+                  <div style={{position: "absolute", paddingTop: "363px"}}>
+                  <div class="TileLinksBottoms flex middle-xs center-xs"><h4 class="shadowText">asdasdas</h4></div>
+                  </div>
                 </div>
+                
+                <div
+                  class="bg-body mx-auto tilesDiv"
+                  style={{borderRadius: "21px 21px 0 0", justifyContent: "center"}}
+                >
+                  <img class="tilesImg" src={require('../../images/ravixkarunaSquare.jpg')} />
+                  <div style={{position: "absolute", paddingTop: "363px"}}>
+                  <div class="TileLinksBottoms flex middle-xs center-xs"><h4 class="shadowText">asdasdas</h4></div>
+                  </div>
+                </div>
+                
+                <div
+                  class="bg-body mx-auto tilesDiv"
+                  style={{borderRadius: "21px 21px 0 0", justifyContent: "center"}}
+                >
+                  <img class="tilesImg" src={require('../../images/ravixkarunaSquare.jpg')} />
+                  <div style={{position: "absolute", paddingTop: "363px"}}>
+                  <div class="TileLinksBottoms flex middle-xs center-xs"><h4 class="shadowText">asdasdas</h4></div>
+                  </div>
+                </div>
+
               </div>
               {/* <div class="">
                 <div class="my-3 p-3" style={{textAlign: "center"}}>
