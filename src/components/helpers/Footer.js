@@ -9,7 +9,7 @@ const Footer = () => {
                             <ul class="nav flex-column">
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Store Locator</a></li>
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">StockList</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+                                <li class="nav-item mb-2"><a href="/contact" class="nav-link p-0 text-muted">Contact Us</a></li>
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
                             </ul>

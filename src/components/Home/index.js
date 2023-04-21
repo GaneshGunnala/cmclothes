@@ -6,6 +6,7 @@ import { Whatsapp } from "../helpers/Whatsapp";
 import Navbar from "../Navbar";
 import "./Home.scss";
 import { CategoriesCircle } from "../helpers/CategoriesCircle";
+import { StoreLocator } from "../helpers/StoreLocator";
 const Home = () => {
   return (
     <>
@@ -86,6 +87,7 @@ const Home = () => {
         {/* <Accordion heading={"Test header"} /> */}
         
       </div>
+      <StoreLocator />
       <Footer />
     </>
   );

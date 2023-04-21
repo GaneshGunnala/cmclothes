@@ -2,6 +2,7 @@ import { lazy } from "react";
 
 const Home = lazy(() => import("./components/Home/index"));
 const Navbar = lazy(() => import("./components/Navbar/index"));
+const Contact = lazy(() => import("./components/Contact/index"));
 
 const routes = [
     {
@@ -13,6 +14,11 @@ const routes = [
       path: '/navbar',
       component: <Navbar />,
       description: "Navbar",
+    },
+    {
+      path: '/contact',
+      component: <Contact />,
+      description: "Contact Page",
     },
 ];
 
