@@ -46,7 +46,7 @@ const Footer = () => {
                             </form>
                         </div> */}
                         <div style={{display: "flex"}}>
-                            <h5>Follow Us</h5>
+                            <h6>Follow Us</h6>
                             <div class="icons">
                             <a href="https://www.freepnglogos.com/pics/logo-facebookpng" title="facebook"><img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-flat-facebook-logo-png-icon-circle-22.png" width="40" alt="facebook" /></a>
                             </div>
