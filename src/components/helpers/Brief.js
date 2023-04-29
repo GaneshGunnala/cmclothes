@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useReducer } from "react";
 const Brief = () => {
     return (
-        <div data-v-10a18489="" class="m-md-3">
+        <div data-v-10a18489="" class="m-md-3" id="brief">
             <h3 >
                 Timeless and Custom fashion by CMCG
             </h3>
