@@ -1,67 +1,86 @@
-import React, { useEffect, useState, useReducer } from "react";
+import { Carousel } from 'react-carousel-minimal';
 
+function HeroCarousal() {
+    const data = [
+        {
+            caption: "Suits",
+            image: require("../../images/ravixkarunaSquare.jpg")
+        },
+        {
+            caption: "Sherwanis",
+            image: require("../../images/sherwaniSquare.jpg")
+        },
+        {
+            caption: "Sadris",
+            image: require("../../images/sadriSquare.jpg")
+        },
+        {
+            caption: "Formals",
+            image: require("../../images/formalsSquare.png")
+        },
+        {
+            caption: "Jodhpuris",
+            image: require("../../images/jodhpurisSquare.jpg")
+        },
+        {
+            caption: "IndoWestern",
+            image: require("../../images/indowesternSquare.jpg")
+        },
+        {
+            caption: "Pagdis",
+            image: require("../../images/pagdiSquare.jpg")
+        },
+        {
+            caption: "Loafers",
+            image: require("../../images/loaferSquare.jpg")
+        },
+    ];
 
-const HeroCarousal = () => {
-    const [circleData, setCircleData] = useState([
-        {
-            Label: "Suits",
-            ImgSrc: require("../../images/ravixkarunaSquare.jpg")
-        },
-        {
-            Label: "Sherwanis",
-            ImgSrc: require("../../images/sherwaniSquare.jpg")
-        },
-        {
-            Label: "Sadris",
-            ImgSrc: require("../../images/sadriSquare.jpg")
-        },
-        {
-            Label: "Formals",
-            ImgSrc: require("../../images/formalsSquare.png")
-        },
-        {
-            Label: "Jodhpuris",
-            ImgSrc: require("../../images/jodhpurisSquare.jpg")
-        },
-        {
-            Label: "IndoWestern",
-            ImgSrc: require("../../images/indowesternSquare.jpg")
-        },
-        {
-            Label: "Pagdis",
-            ImgSrc: require("../../images/pagdiSquare.jpg")
-        },
-        {
-            Label: "Loafers",
-            ImgSrc: require("../../images/loaferSquare.jpg")
-        },
-    ]);
-
-    return(
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src={require("../../images/ravixkarunaSquare.jpg")} alt="First slide" />
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={require("../../images/loaferSquare.jpg")} alt="Second slide" />
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+    const captionStyle = {
+        fontSize: '2em',
+        fontWeight: 'bold',
+    }
+    const slideNumberStyle = {
+        fontSize: '20px',
+        fontWeight: 'bold',
+    }
+    return (
+        <div className="heroCarousal" >
+            <div style={{ textAlign: "center" }}>
+                <h3 style={{ fontFamily: "Bahnschrift SemiBold" }}>Custom Made <br />Clothes Gallery</h3>
+                <p style={{ marginBottom: "0px" }}>We make clothes with the choice of yours and the best fit you can get.</p>
+                <div style={{
+                    padding: "0 10px"
+                }}>
+                    <Carousel
+                        data={data}
+                        time={3000}
+                        width="500px"
+                        height="500px"
+                        captionStyle={captionStyle}
+                        radius="10px"
+                        slideNumber={true}
+                        slideNumberStyle={slideNumberStyle}
+                        captionPosition="bottom"
+                        automatic={true}
+                        dots={true}
+                        pauseIconColor="white"
+                        pauseIconSize="40px"
+                        slideBackgroundColor="darkgrey"
+                        slideImageFit="cover"
+                        thumbnails={false}
+                        thumbnailWidth="100px"
+                        style={{
+                            textAlign: "center",
+                            maxWidth: "500px",
+                            maxHeight: "500px",
+                            margin: "40px auto",
+                        }}
+                    />
+                </div>
+            </div>
+        </div>
     );
-};
+}
 
 export default HeroCarousal;

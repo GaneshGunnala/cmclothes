@@ -19,7 +19,7 @@ const Home = () => {
             <Whatsapp />
             <CategoriesCircle />
             <HeroCarousal />
-            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary mainHero">
+            {/* <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary mainHero">
               <div class="col-md-9 my-5" style={{marginLeft: "50px", textAlign: "initial"}}>
                 <h1 class="display-3 fw-normal">CMClothes Gallery</h1>
                 <p class="lead fw-normal" style={{width: "700px"}}>
@@ -34,7 +34,7 @@ const Home = () => {
               </div>
               <div class="product-device shadow-sm d-none d-md-block"></div>
               <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-            </div>
+            </div> */}
             <div class="" style={{justifyContent: "center"}}>
             <div class="">
                 <div class="my-3 py-3" style={{textAlign: "center"}}>
