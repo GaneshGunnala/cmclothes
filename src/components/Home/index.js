@@ -8,6 +8,7 @@ import Navbar from "../Navbar";
 import "./Home.scss";
 import { CategoriesCircle } from "../helpers/CategoriesCircle";
 import { StoreLocator } from "../helpers/StoreLocator";
+import HeroCarousal from "../helpers/HeroCarousal";
 const Home = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Home = () => {
           <main style={{}}>
             <Whatsapp />
             <CategoriesCircle />
+            <HeroCarousal />
             <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary mainHero">
               <div class="col-md-9 my-5" style={{marginLeft: "50px", textAlign: "initial"}}>
                 <h1 class="display-3 fw-normal">CMClothes Gallery</h1>
