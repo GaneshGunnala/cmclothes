@@ -59,7 +59,7 @@ function HeroCarousal() {
                         height="500px"
                         captionStyle={captionStyle}
                         radius="10px"
-                        slideNumber={true}
+                        slideNumber={false}
                         slideNumberStyle={slideNumberStyle}
                         captionPosition="bottom"
                         automatic={true}
@@ -72,8 +72,8 @@ function HeroCarousal() {
                         thumbnailWidth="100px"
                         style={{
                             textAlign: "center",
-                            maxWidth: "500px",
-                            maxHeight: "500px",
+                            minWidth: "200px",
+                            minHeight: "200px",
                             margin: "40px auto",
                         }}
                     />

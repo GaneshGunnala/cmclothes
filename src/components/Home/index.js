@@ -47,7 +47,7 @@ const Home = () => {
                   style={{borderRadius: "21px 21px 0 0", justifyContent: "center"}}
                 >
                   <img class="tilesImg" src={require('../../images/ravixkarunaSquare.jpg')} />
-                  <div style={{position: "absolute", paddingTop: "363px"}}>
+                  <div style={{position: "absolute", paddingTop: "90%"}}>
                   <div class="TileLinksBottoms flex middle-xs center-xs"><h4 class="shadowText">asdasdas</h4></div>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ const Home = () => {
                   style={{borderRadius: "21px 21px 0 0", justifyContent: "center"}}
                 >
                   <img class="tilesImg" src={require('../../images/ravixkarunaSquare.jpg')} />
-                  <div style={{position: "absolute", paddingTop: "363px"}}>
+                  <div style={{position: "absolute", paddingTop: "90%"}}>
                   <div class="TileLinksBottoms flex middle-xs center-xs"><h4 class="shadowText">asdasdas</h4></div>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ const Home = () => {
                   style={{borderRadius: "21px 21px 0 0", justifyContent: "center"}}
                 >
                   <img class="tilesImg" src={require('../../images/ravixkarunaSquare.jpg')} />
-                  <div style={{position: "absolute", paddingTop: "363px"}}>
+                  <div style={{position: "absolute", paddingTop: "90%"}}>
                   <div class="TileLinksBottoms flex middle-xs center-xs"><h4 class="shadowText">asdasdas</h4></div>
                   </div>
                 </div>
