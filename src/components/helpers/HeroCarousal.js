@@ -55,7 +55,7 @@ function HeroCarousal() {
                     <Carousel
                         data={data}
                         time={3000}
-                        width="500px"
+                        width="100%"
                         height="500px"
                         captionStyle={captionStyle}
                         radius="10px"
@@ -66,7 +66,7 @@ function HeroCarousal() {
                         dots={true}
                         pauseIconColor="white"
                         pauseIconSize="40px"
-                        slideBackgroundColor="darkgrey"
+                        slideBackgroundColor="white"
                         slideImageFit="cover"
                         thumbnails={false}
                         thumbnailWidth="100px"
