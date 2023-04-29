@@ -2,6 +2,7 @@ import React, { useEffect, useState, useReducer } from "react";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Accordion from "../helpers/Accordion";
 import Footer from "../helpers/Footer";
+import Brief from "../helpers/Brief";
 import { Whatsapp } from "../helpers/Whatsapp";
 import Navbar from "../Navbar";
 import "./Home.scss";
@@ -89,6 +90,7 @@ const Home = () => {
       </div>
       <StoreLocator />
       <Footer />
+      <Brief />
     </>
   );
 };

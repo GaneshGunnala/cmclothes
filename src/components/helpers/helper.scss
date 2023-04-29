@@ -1,3 +1,4 @@
+@import url('https://fonts.cdnfonts.com/css/rawson-alt');
 .float{
 	position:fixed;
 	width:60px;
@@ -38,4 +39,20 @@
 
 .icons{
 	padding: 5px;
+}
+
+.seo-heading-text{
+	font-family: 'Rawson Alt';
+	font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.seo-content{
+	font-family: 'Rawson';
+	font-size: 13px;
+    letter-spacing: 1.2px;
+    line-height: 24px;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
