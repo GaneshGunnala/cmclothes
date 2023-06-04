@@ -9,14 +9,16 @@ import 'react-phone-input-international/lib/style.css'
 
 
 
-const Contact = () => {
+const Appointment = () => {
     const [phoneNumber, setPhoneNumber] = useState('');
     const sendEmail = (e) => {
         e.preventDefault();
         e.target.getElementsByTagName('input')[2].setAttribute('name','phoneNumber');
         emailjs.sendForm('service_ooawdev','template_vnxax2d',e.target,'gw71val4_bY3QeqyF').then(
             function (response) {
+                window.location.reload(false);
                 alert("Email Sent Successfully!");
+
             },
             function (error) {
                 alert("Email Failed!");
@@ -113,4 +115,4 @@ const Contact = () => {
     );
 }
 
-export default Contact;
+export default Appointment;
