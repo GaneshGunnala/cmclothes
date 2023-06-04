@@ -1,3 +1,12 @@
 # Redirects from what the browser requests to what we serve
-/contact
-/appointment
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact"
+  status = 200
+  force = false
+[[redirects]]
+  from = "/appointment"
+  to = "/appointment"
+  status = 200
+  force = false
