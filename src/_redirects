@@ -1,12 +1,6 @@
 # Redirects from what the browser requests to what we serve
 
 [[redirects]]
-  from = "/contact"
-  to = "/contact"
-  status = 200
-  force = false
-[[redirects]]
-  from = "/appointment"
-  to = "/appointment"
-  status = 200
-  force = false
+from = "/*"
+to = "/index.html"
+status = 200
