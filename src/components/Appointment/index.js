@@ -14,7 +14,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         e.target.getElementsByTagName('input')[2].setAttribute('name','phoneNumber');
-        emailjs.sendForm('service_6ka7oda','template_21msla6',e.target,'gw71val4_bY3QeqyF').then(
+        emailjs.sendForm('service_ooawdev','template_vnxax2d',e.target,'gw71val4_bY3QeqyF').then(
             function (response) {
                 alert("Email Sent Successfully!");
             },
