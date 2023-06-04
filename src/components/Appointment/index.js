@@ -25,7 +25,11 @@ const Appointment = () => {
             }
         );
     };
-
+    const changeType = (e) => {
+        e.target.getAttribute('placeholder') == 'date' ?
+        e.target.setAttribute('type','date') :
+        e.target.setAttribute('type','time');
+    }
 
     return (
             <div>
@@ -68,10 +72,10 @@ const Appointment = () => {
                                 </div>
                                 <div style={{display: "flex"}}>
                                     <div class="name inputBox">
-                                        <input type="date" id="date" name="date" class="form-control" placeholder="date" />
+                                        <input type="text" id="date" name="date" class="form-control" placeholder="date" onMouseEnter={changeType} />
                                     </div>
                                     <div class="name inputBox">
-                                        <input type="time" id="time" name="time" class="form-control" placeholder="time" />
+                                        <input type="text" id="time" name="time" class="form-control" placeholder="time" onMouseEnter={changeType}/>
                                     </div>
                                 </div>
                                 <div class="name inputBox">
