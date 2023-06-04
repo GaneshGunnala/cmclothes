@@ -48,22 +48,22 @@ const Footer = () => {
                         <div style={{display: "flex"}}>
                             <h6>Follow Us</h6>
                             <div class="icons">
-                            <a href="https://www.freepnglogos.com/pics/logo-facebookpng" title="facebook"><img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-flat-facebook-logo-png-icon-circle-22.png" width="40" alt="facebook" /></a>
+                            <a href="https://instagram.com/cm_clothes_gallery?igshid=ZGUzMzM3NWJiOQ==" target="_blank" title="facebook"><img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-clipart-flat-facebook-logo-png-icon-circle-22.png" width="40" alt="facebook" /></a>
                             </div>
                             <div class="icons">
-                            <a href="https://www.freepnglogos.com/pics/pinterest-logo-png" title="pinterest"><img src="https://www.freepnglogos.com/uploads/pinterest-logo-emblem-png-11.png" width="40" alt="pinterest logo emblem png" /></a>
+                            <a href="https://instagram.com/cm_clothes_gallery?igshid=ZGUzMzM3NWJiOQ==" target="_blank" title="pinterest"><img src="https://www.freepnglogos.com/uploads/pinterest-logo-emblem-png-11.png" width="40" alt="pinterest logo emblem png" /></a>
                             </div>
                             <div class="icons">
-                            <a href="https://www.freepnglogos.com/pics/instagram-icon" title="insta"><img src="https://www.freepnglogos.com/uploads/instagram-icon-png/instagram-icon-suzem-limited-make-known-20.png" width="40" alt="instagram" /></a>
+                            <a href="https://instagram.com/cm_clothes_gallery?igshid=ZGUzMzM3NWJiOQ==" target="_blank" title="insta"><img src="https://www.freepnglogos.com/uploads/instagram-icon-png/instagram-icon-suzem-limited-make-known-20.png" width="40" alt="instagram" /></a>
                             </div>
                             <div class="icons">
-                            <a href="../../images/icons/wedmegood.png" title=""><img src={require("../../images/icons/wedmegood.png")} width="40" height="40" alt="instagram" /></a>    
+                            <a href="https://www.wedmegood.com/profile/Custom-Made-Clothes-Gallery-3269655" target="_blank" title=""><img src={require("../../images/icons/wedmegood.png")} width="40" height="40" alt="wedmegood" /></a>    
                             </div>
                             <div class="icons">
-                            <a href="../../images/icons/wedmegood.png" title=""><img src="https://user-images.githubusercontent.com/42868728/70027410-164cdd00-15c8-11ea-9852-6982408e4ea6.png" width="40" alt="instagram" /></a>    
+                            <a href="" target="_blank" title=""><img src="https://user-images.githubusercontent.com/42868728/70027410-164cdd00-15c8-11ea-9852-6982408e4ea6.png" width="40" alt="justdial" /></a>    
                             </div>
                             <div class="icons">
-                            <a href="https://www.freepnglogos.com/pics/youtube-logo-png" title=""><img src="https://www.freepnglogos.com/uploads/youtube-circle-icon-png-logo-14.png" width="50" alt="youtube circle icon png logo" /></a>
+                            <a href="https://instagram.com/cm_clothes_gallery?igshid=ZGUzMzM3NWJiOQ==" target="_blank" title=""><img src="https://www.freepnglogos.com/uploads/youtube-circle-icon-png-logo-14.png" width="50" alt="youtube circle icon png logo" /></a>
                             </div>
                         </div>
                     </div>
