@@ -28,7 +28,7 @@ const Contact = () => {
 
                     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
                     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. <br />
-                    Our team will come back to you withina matter of hours to help you. Send an Email or Chat with us directly on Whatsapp!</p>
+                    Our team will come back to you with in a matter of hours to help you. Send an Email or Chat with us directly on Whatsapp!</p>
 
                     <div class="row">
 

@@ -28,12 +28,13 @@ const Brief = () => {
             </h3>
             <p class="seo-content">
                 The collection includes CMCG Exclusive,
-                <a href="https://amitaggarwal.com/couture" title="CMCG Collection">
+                {/* <a href="https://amitaggarwal.com/couture" title="CMCG Collection"> */}
                     CMCG Collection
-                </a>, Bridal, 
-                <a href="https://amitaggarwal.com/luxury-pret" title="Luxury Pret">
+                {/* </a> */}
+                , Bridal, 
+                {/* <a href="https://amitaggarwal.com/luxury-pret" title="Luxury Pret"> */}
                     Luxury Pret
-                </a> 
+                {/* </a>  */}
                 and Euphor by CMCG.</p>
         </div>
     );

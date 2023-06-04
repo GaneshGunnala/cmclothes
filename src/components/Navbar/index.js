@@ -43,6 +43,9 @@ export default function App() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
+              <MDBNavbarLink href='/appointment'>Book An Appointment</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
               <MDBNavbarLink href='#brief'>About Us</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
