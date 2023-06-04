@@ -1,11 +1,8 @@
-.searchForm{
-    display: flex;
-}
 
-.navbar{
-    background-color: snow;
-}
 
-.navbarIcon{
-    background-image: url("../../images/clientHeroIma.JPG");
+.sticky-div{
+    position: sticky;
+    top:0%;
+    // background-color: black;
+    z-index: 99999;
 }

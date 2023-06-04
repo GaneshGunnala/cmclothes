@@ -15,11 +15,12 @@ import {
   MDBDropdownItem,
   MDBCollapse,
 } from 'mdb-react-ui-kit';
-
+import './Navbar.scss';
 export default function App() {
   const [showBasic, setShowBasic] = useState(false);
 
   return (
+    <div className='sticky-div'>
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='/'>
@@ -79,5 +80,6 @@ export default function App() {
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
+    </div>
   );
 }
